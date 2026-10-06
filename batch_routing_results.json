@@ -1,0 +1,1382 @@
+[
+  {
+    "status": "success",
+    "complaint": "No power in my area since last night",
+    "result": {
+      "routing_decision": {
+        "department": "Electricity Board",
+        "department_id": "electricity",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "electricity",
+          "name": "Electricity Board",
+          "similarity": 0.8411446213722229,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.8411446213722229,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.765505850315094,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7587016820907593,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Power outages must be reported immediately to the Electricity Board. Emergency repairs will be prioritized within 2 hours for critical areas including hospitals, emergency services, and densely popula",
+          "relevance": 0.6552388193563168,
+          "department": "electricity",
+          "category": "emergency_response"
+        },
+        {
+          "text": "New electricity connection requests require property ownership documents, ID proof, and site plan. Connections in urban areas are processed within 7 working days, rural areas within 15 days.",
+          "relevance": 0.632031965535308,
+          "department": "electricity",
+          "category": "connection"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 31.516974925994873,
+        "complaint_length": 36,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:10:59"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Frequent voltage fluctuation damaging appliances",
+    "result": {
+      "routing_decision": {
+        "department": "Electricity Board",
+        "department_id": "electricity",
+        "category": "Voltage FluctCTivity Issue",
+        "priority": "Medium",
+        "reason": "Frequent voltage fluctuations are causing damage to appliances and should be addressed promptly, although not classified as an emergency."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "electricity",
+          "name": "Electricity Board",
+          "similarity": 0.7887423634529114,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.7887423634529114,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7645853161811829,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7402758598327637,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Power outages must be reported immediately to the Electricity Board. Emergency repairs will be prioritized within 2 hours for critical areas including hospitals, emergency services, and densely popula",
+          "relevance": 0.6101974185948961,
+          "department": "electricity",
+          "category": "emergency_response"
+        },
+        {
+          "text": "Electricity billing disputes should be raised within 30 days of bill receipt. Consumers can request meter reading verification and billing history. Incorrect bills will be rectified within 15 working ",
+          "relevance": 0.6036954901038507,
+          "department": "electricity",
+          "category": "billing"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 21.593390703201294,
+        "complaint_length": 48,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:11:21"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Electricity bill amount is incorrect this month",
+    "result": {
+      "routing_decision": {
+        "department": "Electricity Board",
+        "department_id": "electricity",
+        "category": "Billing Discrepincy",
+        "priority": "Medium",
+        "reason": "The complaint concerns a potential billing error, which is not an immediate safety issue but requires timely attention to ensure accurate charges."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "electricity",
+          "name": "Electricity Board",
+          "similarity": 0.9012912511825562,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.9012912511825562,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7749010920524597,
+            "confidence": "high"
+          },
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.7486692667007446,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Electricity billing disputes should be raised within 30 days of bill receipt. Consumers can request meter reading verification and billing history. Incorrect bills will be rectified within 15 working ",
+          "relevance": 0.7147150286574151,
+          "department": "electricity",
+          "category": "billing"
+        },
+        {
+          "text": "Power outages must be reported immediately to the Electricity Board. Emergency repairs will be prioritized within 2 hours for critical areas including hospitals, emergency services, and densely popula",
+          "relevance": 0.6188827508612269,
+          "department": "electricity",
+          "category": "emergency_response"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 18.70900797843933,
+        "complaint_length": 47,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:11:40"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Transformer making loud noise and sparking",
+    "result": {
+      "routing_decision": {
+        "department": "Electricity Board",
+        "department_id": "electricity",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "electricity",
+          "name": "Electricity Board",
+          "similarity": 0.8044279217720032,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.8044279217720032,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7766349911689758,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7188606262207031,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Power outages must be reported immediately to the Electricity Board. Emergency repairs will be prioritized within 2 hours for critical areas including hospitals, emergency services, and densely popula",
+          "relevance": 0.5288119037655471,
+          "department": "electricity",
+          "category": "emergency_response"
+        },
+        {
+          "text": "Electricity billing disputes should be raised within 30 days of bill receipt. Consumers can request meter reading verification and billing history. Incorrect bills will be rectified within 15 working ",
+          "relevance": 0.498218301880646,
+          "department": "electricity",
+          "category": "billing"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 31.358898401260376,
+        "complaint_length": 42,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:12:11"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Streetlight not working near the bus stop",
+    "result": {
+      "routing_decision": {
+        "department": "Road & Transport Department",
+        "department_id": "transport",
+        "category": "Repair Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "transport",
+          "name": "Road & Transport Department",
+          "similarity": 0.9215518236160278,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.9215518236160278,
+            "confidence": "high"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.7661612033843994,
+            "confidence": "high"
+          },
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.7571253180503845,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": false
+      },
+      "retrieved_policies": [
+        {
+          "text": "Streetlight outages affecting public safety should be reported with location details. Repairs are scheduled within 3-5 days based on area priority. Multiple outages in same area are expedited.",
+          "relevance": 0.6872515346786608,
+          "department": "transport",
+          "category": "streetlights"
+        },
+        {
+          "text": "Non-functional traffic signals create safety hazards and traffic congestion. Signal repairs are completed within 12 hours. Alternative traffic management is arranged during repair period.",
+          "relevance": 0.6072312656154222,
+          "department": "transport",
+          "category": "traffic_signals"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 27.546518325805664,
+        "complaint_length": 41,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:12:39"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "எங்கள் பகுதியில் மூன்று நாட்களாக தண்ணீர் வரவில்லை",
+    "result": {
+      "routing_decision": {
+        "department": "Water Supply Board",
+        "department_id": "water",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "water",
+          "name": "Water Supply Board",
+          "similarity": 0.7439120411872864,
+          "confidence": "medium"
+        },
+        "top_3_departments": [
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7439120411872864,
+            "confidence": "medium"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.7096117734909058,
+            "confidence": "medium"
+          },
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.6966033577919006,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Water supply timings and schedules are managed by zone. Residents can report irregular supply patterns. Supply improvements require infrastructure assessment and may take 30-60 days to implement.",
+          "relevance": 0.5510387756910129,
+          "department": "water",
+          "category": "supply_schedule"
+        },
+        {
+          "text": "Water quality complaints regarding contamination, odor, or color must be investigated immediately. Water samples will be collected and tested within 24 hours. Alternative water supply will be arranged",
+          "relevance": 0.5424240583405274,
+          "department": "water",
+          "category": "quality"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 30.21491503715515,
+        "complaint_length": 49,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:13:09"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "தண்ணீர் குழாயில் கசிவு ஏற்பட்டு சாலை முழுவதும் நீர் நிரம்பியுள்ளது",
+    "result": {
+      "routing_decision": {
+        "department": "Water Supply Board",
+        "department_id": "water",
+        "category": "Service Request",
+        "priority": "High",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "water",
+          "name": "Water Supply Board",
+          "similarity": 0.7582790851593018,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7582790851593018,
+            "confidence": "high"
+          },
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.738484263420105,
+            "confidence": "medium"
+          },
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.7200460433959961,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Water pipeline leaks causing flooding or property damage require immediate attention. Emergency response team will be deployed within 1 hour for major leaks affecting multiple households.",
+          "relevance": 0.5512629154826926,
+          "department": "water",
+          "category": "emergency_leak"
+        },
+        {
+          "text": "Water quality complaints regarding contamination, odor, or color must be investigated immediately. Water samples will be collected and tested within 24 hours. Alternative water supply will be arranged",
+          "relevance": 0.524756488893595,
+          "department": "water",
+          "category": "quality"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "High",
+        "reasoning": "Emergency keywords or critical policy match",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 2
+      },
+      "metadata": {
+        "processing_time_seconds": 22.969313144683838,
+        "complaint_length": 66,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:13:32"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "குப்பை மூன்று நாட்களாக எடுக்கவில்லை",
+    "result": {
+      "routing_decision": {
+        "department": "Water Supply Board",
+        "department_id": "water",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "water",
+          "name": "Water Supply Board",
+          "similarity": 0.6994227170944214,
+          "confidence": "medium"
+        },
+        "top_3_departments": [
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.6994227170944214,
+            "confidence": "medium"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.689876914024353,
+            "confidence": "medium"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.689363420009613,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Water quality complaints regarding contamination, odor, or color must be investigated immediately. Water samples will be collected and tested within 24 hours. Alternative water supply will be arranged",
+          "relevance": 0.4572095868944266,
+          "department": "water",
+          "category": "quality"
+        },
+        {
+          "text": "Water supply timings and schedules are managed by zone. Residents can report irregular supply patterns. Supply improvements require infrastructure assessment and may take 30-60 days to implement.",
+          "relevance": 0.4523612150110825,
+          "department": "water",
+          "category": "supply_schedule"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 22.9044508934021,
+        "complaint_length": 35,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:13:55"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "பெரிய பள்ளம் காரணமாக விபத்துகள் நடக்கின்றன",
+    "result": {
+      "routing_decision": {
+        "department": "Water Supply Board",
+        "department_id": "water",
+        "category": "Service Request",
+        "priority": "High",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "water",
+          "name": "Water Supply Board",
+          "similarity": 0.7240344882011414,
+          "confidence": "medium"
+        },
+        "top_3_departments": [
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7240344882011414,
+            "confidence": "medium"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7166901230812073,
+            "confidence": "medium"
+          },
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.715961754322052,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Water pipeline leaks causing flooding or property damage require immediate attention. Emergency response team will be deployed within 1 hour for major leaks affecting multiple households.",
+          "relevance": 0.5249669063666207,
+          "department": "water",
+          "category": "emergency_leak"
+        },
+        {
+          "text": "Water quality complaints regarding contamination, odor, or color must be investigated immediately. Water samples will be collected and tested within 24 hours. Alternative water supply will be arranged",
+          "relevance": 0.4250233978377611,
+          "department": "water",
+          "category": "quality"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "High",
+        "reasoning": "Emergency keywords or critical policy match",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 2
+      },
+      "metadata": {
+        "processing_time_seconds": 26.801581382751465,
+        "complaint_length": 42,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:14:21"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "பொது கழிப்பறை மிகவும் அசுத்தமாக உள்ளது",
+    "result": {
+      "routing_decision": {
+        "department": "Municipal Sanitation",
+        "department_id": "sanitation",
+        "category": "Public Toilet Cleanliness Complaint",
+        "priority": "Medium",
+        "reason": "The complaint indicates a significant issue with cleanliness, which falls under the department's purview but may not require immediate action as per policy guidelines."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "sanitation",
+          "name": "Municipal Sanitation",
+          "similarity": 0.7243505716323853,
+          "confidence": "medium"
+        },
+        "top_3_departments": [
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.7243505716323853,
+            "confidence": "medium"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7117341756820679,
+            "confidence": "medium"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.6978611946105957,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Public toilet maintenance complaints including cleanliness, broken facilities, or lack of water will be addressed within 48 hours. Regular maintenance is conducted weekly.",
+          "relevance": 0.4959520237629642,
+          "department": "sanitation",
+          "category": "public_facilities"
+        },
+        {
+          "text": "Garbage collection is scheduled per zone weekly schedule. Missed collections should be reported within 24 hours. Special waste collection for large items requires prior booking 3 days in advance.",
+          "relevance": 0.4532582779795964,
+          "department": "sanitation",
+          "category": "waste_collection"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 0
+      },
+      "metadata": {
+        "processing_time_seconds": 22.28464984893799,
+        "complaint_length": 38,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:14:44"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Garbage not collected for 5 days in our street",
+    "result": {
+      "routing_decision": {
+        "department": "Municipal Sanitation",
+        "department_id": "sanitation",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "sanitation",
+          "name": "Municipal Sanitation",
+          "similarity": 0.8312751054763794,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.8312751054763794,
+            "confidence": "high"
+          },
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.786404013633728,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7534566521644592,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Garbage collection is scheduled per zone weekly schedule. Missed collections should be reported within 24 hours. Special waste collection for large items requires prior booking 3 days in advance.",
+          "relevance": 0.6455340180356841,
+          "department": "sanitation",
+          "category": "waste_collection"
+        },
+        {
+          "text": "Illegal dumping and littering complaints can be reported with photo evidence. Violators will be identified and fined as per municipal bylaws. Regular areas affected by dumping will receive increased m",
+          "relevance": 0.5951523161607902,
+          "department": "sanitation",
+          "category": "illegal_dumping"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 0
+      },
+      "metadata": {
+        "processing_time_seconds": 30.172466278076172,
+        "complaint_length": 46,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:15:14"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Water contamination issue with bad smell",
+    "result": {
+      "routing_decision": {
+        "department": "Water Supply Board",
+        "department_id": "water",
+        "category": "Contamination and Odor Issue",
+        "priority": "High",
+        "reason": "Immediate investigation is required due to the presence of contaminants causing a bad smell, which poses potential health risks."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "water",
+          "name": "Water Supply Board",
+          "similarity": 0.9014753699302673,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.9014753699302673,
+            "confidence": "high"
+          },
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.7847055196762085,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7611902356147766,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Water quality complaints regarding contamination, odor, or color must be investigated immediately. Water samples will be collected and tested within 24 hours. Alternative water supply will be arranged",
+          "relevance": 0.7140239887915658,
+          "department": "water",
+          "category": "quality"
+        },
+        {
+          "text": "Water pipeline leaks causing flooding or property damage require immediate attention. Emergency response team will be deployed within 1 hour for major leaks affecting multiple households.",
+          "relevance": 0.5986452023811291,
+          "department": "water",
+          "category": "emergency_leak"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "High",
+        "reasoning": "Emergency keywords or critical policy match",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 2
+      },
+      "metadata": {
+        "processing_time_seconds": 21.565006256103516,
+        "complaint_length": 40,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:15:35"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Huge pothole causing bike accidents",
+    "result": {
+      "routing_decision": {
+        "department": "Road & Transport Department",
+        "department_id": "transport",
+        "category": "Pothole Accident Risk",
+        "priority": "Medium",
+        "reason": "The pothole poses a risk for bike accidents, aligning with the policy of prioritizing repairs that affect vehicle safety."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "transport",
+          "name": "Road & Transport Department",
+          "similarity": 0.8222091794013977,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.8222091794013977,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7533733248710632,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7503064870834351,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Dangerous potholes and road damage affecting vehicle safety or causing accidents require immediate repair. Emergency road repairs are prioritized within 24-48 hours based on severity and traffic volum",
+          "relevance": 0.6544967549242968,
+          "department": "transport",
+          "category": "road_damage"
+        },
+        {
+          "text": "Streetlight outages affecting public safety should be reported with location details. Repairs are scheduled within 3-5 days based on area priority. Multiple outages in same area are expedited.",
+          "relevance": 0.5611689720223267,
+          "department": "transport",
+          "category": "streetlights"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 20.670701265335083,
+        "complaint_length": 35,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:15:56"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Illegal dumping of waste near residential area",
+    "result": {
+      "routing_decision": {
+        "department": "Municipal Sanitation",
+        "department_id": "sanitation",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "sanitation",
+          "name": "Municipal Sanitation",
+          "similarity": 0.8655946254730225,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.8655946254730225,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7499675154685974,
+            "confidence": "medium"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7351030111312866,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Illegal dumping and littering complaints can be reported with photo evidence. Violators will be identified and fined as per municipal bylaws. Regular areas affected by dumping will receive increased m",
+          "relevance": 0.6804285225751099,
+          "department": "sanitation",
+          "category": "illegal_dumping"
+        },
+        {
+          "text": "Garbage collection is scheduled per zone weekly schedule. Missed collections should be reported within 24 hours. Special waste collection for large items requires prior booking 3 days in advance.",
+          "relevance": 0.5904021396497818,
+          "department": "sanitation",
+          "category": "waste_collection"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 0
+      },
+      "metadata": {
+        "processing_time_seconds": 27.587499380111694,
+        "complaint_length": 46,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:16:24"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Noise complaint after 11 PM from nearby function hall",
+    "result": {
+      "routing_decision": {
+        "department": "Police Department",
+        "department_id": "police",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "police",
+          "name": "Police Department",
+          "similarity": 0.8120507001876831,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.8120507001876831,
+            "confidence": "high"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.7455012798309326,
+            "confidence": "medium"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7322309613227844,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Noise pollution complaints during night hours (10 PM - 6 AM) will be investigated immediately. Repeated violations may result in legal action against the source of disturbance.",
+          "relevance": 0.6950134386025926,
+          "department": "police",
+          "category": "noise"
+        },
+        {
+          "text": "Emergency law and order situations including violence, theft, or immediate danger should be reported to emergency hotline 100. Police response time for emergencies is targeted at 10-15 minutes in urba",
+          "relevance": 0.549568814619286,
+          "department": "police",
+          "category": "emergency"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 18.602612018585205,
+        "complaint_length": 53,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:16:42"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Streetlight flickering and turning off frequently",
+    "result": {
+      "routing_decision": {
+        "department": "Road & Transport Department",
+        "department_id": "transport",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. Timeout"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "transport",
+          "name": "Road & Transport Department",
+          "similarity": 0.8557209372520447,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.8557209372520447,
+            "confidence": "high"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.7710964679718018,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.7621669769287109,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Streetlight outages affecting public safety should be reported with location details. Repairs are scheduled within 3-5 days based on area priority. Multiple outages in same area are expedited.",
+          "relevance": 0.6760094326636039,
+          "department": "transport",
+          "category": "streetlights"
+        },
+        {
+          "text": "Non-functional traffic signals create safety hazards and traffic congestion. Signal repairs are completed within 12 hours. Alternative traffic management is arranged during repair period.",
+          "relevance": 0.5705915663248806,
+          "department": "transport",
+          "category": "traffic_signals"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 32.18904232978821,
+        "complaint_length": 49,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:17:14"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Bus not stopping at designated stop regularly",
+    "result": {
+      "routing_decision": {
+        "department": "Road & Transport Department",
+        "department_id": "transport",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. Timeout"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "transport",
+          "name": "Road & Transport Department",
+          "similarity": 0.8151216506958008,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.8151216506958008,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.745625376701355,
+            "confidence": "medium"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.7391165494918823,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Public bus service complaints including route delays, driver behavior, or vehicle condition are reviewed monthly. Serious safety issues are addressed immediately. Service improvements are implemented ",
+          "relevance": 0.6197643338896506,
+          "department": "transport",
+          "category": "public_transport"
+        },
+        {
+          "text": "Non-functional traffic signals create safety hazards and traffic congestion. Signal repairs are completed within 12 hours. Alternative traffic management is arranged during repair period.",
+          "relevance": 0.5607178456684683,
+          "department": "transport",
+          "category": "traffic_signals"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 32.21924567222595,
+        "complaint_length": 45,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:17:47"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Water tanker not supplied as scheduled",
+    "result": {
+      "routing_decision": {
+        "department": "Water Supply Board",
+        "department_id": "water",
+        "category": "Service Request",
+        "priority": "Medium",
+        "reason": "Routed based on semantic analysis and policy guidelines. LLM response incomplete"
+      },
+      "classification": {
+        "primary_department": {
+          "id": "water",
+          "name": "Water Supply Board",
+          "similarity": 0.8909779191017151,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.8909779191017151,
+            "confidence": "high"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.756754994392395,
+            "confidence": "high"
+          },
+          {
+            "id": "sanitation",
+            "name": "Municipal Sanitation",
+            "similarity": 0.7430919408798218,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Water supply timings and schedules are managed by zone. Residents can report irregular supply patterns. Supply improvements require infrastructure assessment and may take 30-60 days to implement.",
+          "relevance": 0.6373946253985725,
+          "department": "water",
+          "category": "supply_schedule"
+        },
+        {
+          "text": "Water pipeline leaks causing flooding or property damage require immediate attention. Emergency response team will be deployed within 1 hour for major leaks affecting multiple households.",
+          "relevance": 0.6053074086441552,
+          "department": "water",
+          "category": "emergency_leak"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 24.836243867874146,
+        "complaint_length": 38,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:18:12"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Electric meter running unusually fast",
+    "result": {
+      "routing_decision": {
+        "department": "Electricity Board",
+        "department_id": "electricity",
+        "category": "Billing Discrepincy",
+        "priority": "Medium",
+        "reason": "The complaint about the electric meter running unusually fast falls under billing discrepancies and should be addressed to ensure accurate consumption records."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "electricity",
+          "name": "Electricity Board",
+          "similarity": 0.8288758397102356,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.8288758397102356,
+            "confidence": "high"
+          },
+          {
+            "id": "water",
+            "name": "Water Supply Board",
+            "similarity": 0.747350811958313,
+            "confidence": "medium"
+          },
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.742205023765564,
+            "confidence": "medium"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Electricity billing disputes should be raised within 30 days of bill receipt. Consumers can request meter reading verification and billing history. Incorrect bills will be rectified within 15 working ",
+          "relevance": 0.6166302940857746,
+          "department": "electricity",
+          "category": "billing"
+        },
+        {
+          "text": "Power outages must be reported immediately to the Electricity Board. Emergency repairs will be prioritized within 2 hours for critical areas including hospitals, emergency services, and densely popula",
+          "relevance": 0.6020095473600939,
+          "department": "electricity",
+          "category": "emergency_response"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 19.991085529327393,
+        "complaint_length": 37,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:18:32"
+      }
+    }
+  },
+  {
+    "status": "success",
+    "complaint": "Traffic signal not functioning at main junction",
+    "result": {
+      "routing_decision": {
+        "department": "Road & Transport Department",
+        "department_id": "transport",
+        "category": "Traffic Signal Malfunction",
+        "priority": "Medium",
+        "reason": "Non-functioning traffic signal at main junction poses safety hazards and causes congestion, aligning with policy to address within a reasonable time frame."
+      },
+      "classification": {
+        "primary_department": {
+          "id": "transport",
+          "name": "Road & Transport Department",
+          "similarity": 0.8710483312606812,
+          "confidence": "high"
+        },
+        "top_3_departments": [
+          {
+            "id": "transport",
+            "name": "Road & Transport Department",
+            "similarity": 0.8710483312606812,
+            "confidence": "high"
+          },
+          {
+            "id": "police",
+            "name": "Police Department",
+            "similarity": 0.785175085067749,
+            "confidence": "high"
+          },
+          {
+            "id": "electricity",
+            "name": "Electricity Board",
+            "similarity": 0.7560592889785767,
+            "confidence": "high"
+          }
+        ],
+        "is_ambiguous": true
+      },
+      "retrieved_policies": [
+        {
+          "text": "Non-functional traffic signals create safety hazards and traffic congestion. Signal repairs are completed within 12 hours. Alternative traffic management is arranged during repair period.",
+          "relevance": 0.6662806411440809,
+          "department": "transport",
+          "category": "traffic_signals"
+        },
+        {
+          "text": "Streetlight outages affecting public safety should be reported with location details. Repairs are scheduled within 3-5 days based on area priority. Multiple outages in same area are expedited.",
+          "relevance": 0.5734504678418304,
+          "department": "transport",
+          "category": "streetlights"
+        }
+      ],
+      "priority_analysis": {
+        "suggested_priority": "Medium",
+        "reasoning": "Standard priority",
+        "high_priority_keywords": [],
+        "high_priority_policies_count": 1
+      },
+      "metadata": {
+        "processing_time_seconds": 21.165098667144775,
+        "complaint_length": 47,
+        "llm_used": true,
+        "enhanced_classification": true,
+        "timestamp": "2026-02-16 14:18:53"
+      }
+    }
+  }
+]

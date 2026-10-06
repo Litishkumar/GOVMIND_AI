@@ -1,0 +1,492 @@
+[
+  {
+    "text": "பொது கழிப்பறை மிகவும் அசுத்தமாக உள்ளது",
+    "intent": "complaint",
+    "category": "sanitation"
+  },
+  {
+    "text": "எங்கள் தெருவில் சுத்தம் செய்ய வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிவு சேகரிப்பு பிரச்சனை உண்டு",
+    "intent": "complaint",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிப்பறை வாசனை மிகவும் கெட்டுப் போய்விட்டது",
+    "intent": "complaint",
+    "category": "sanitation"
+  },
+  {
+    "text": "தெருவை சுத்தம் செய்யவும் தயவுசெய்து",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "பொது சுத்தம் பணிக்காரர் வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிவு கொட்ட இடம் கிடைக்கவில்லை",
+    "intent": "complaint",
+    "category": "sanitation"
+  },
+  {
+    "text": "பெரிய குப்பைகள் சாலையில் கிடக்கிறது",
+    "intent": "complaint",
+    "category": "sanitation"
+  },
+  {
+    "text": "பொது கழிப்பறை சுத்தம் செய்ய வேண்டும் உடனே",
+    "intent": "emergency",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிப்பறை பழுதாய் போய்விட்டது",
+    "intent": "complaint",
+    "category": "sanitation"
+  },
+  {
+    "text": "மின்சாரம் வரவில்லை",
+    "intent": "complaint",
+    "category": "electricity"
+  },
+  {
+    "text": "மின்சாரம் வரவில்லை, உடனடி சரிசெய்யவும்",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "மின்விளக்கு வேலை செய்யவில்லை",
+    "intent": "complaint",
+    "category": "electricity"
+  },
+  {
+    "text": "மின்சாரம் அதிகமாய் கேட்டுக்கொண்டு உள்ளது",
+    "intent": "complaint",
+    "category": "electricity"
+  },
+  {
+    "text": "மின்கேபிள் பிரிந்துப் போய்விட்டது",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் விசிறி வேலை செய்யவில்லை",
+    "intent": "complaint",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் மீட்டர் ஆனது பழுதாய் போய்விட்டது",
+    "intent": "complaint",
+    "category": "electricity"
+  },
+  {
+    "text": "நெடிய மின் கூட்டம் உள்ளது, அபாய சிக்கல்",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் பிரச்சனை தீர்க்க வேண்டும்",
+    "intent": "request",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் விதி மாற்ற வேண்டும்",
+    "intent": "request",
+    "category": "electricity"
+  },
+  {
+    "text": "நீர் வருவதில்லை",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "தண்ணீர் வருவதில்லை பல நாட்களாக",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "தண்ணீர் அளவு மிகவும் குறைந்துவிட்டது",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "நீர் குழாய் வெடிந்து போய்விட்டது",
+    "intent": "emergency",
+    "category": "water"
+  },
+  {
+    "text": "நீர் நிறம் பழுதாய் இருக்கிறது",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "நீர் வாசனை கெட்டுப் போய்விட்டது",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "நீர் வெள்ள வந்துவிட்டது",
+    "intent": "emergency",
+    "category": "water"
+  },
+  {
+    "text": "நீர் இணைப்பு வேண்டும்",
+    "intent": "request",
+    "category": "water"
+  },
+  {
+    "text": "நீர் மீட்டர் பழுதாய் போய்விட்டது",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "தண்ணீர் தேவை உடனடி பரிகரணம்",
+    "intent": "emergency",
+    "category": "water"
+  },
+  {
+    "text": "சாலையில் பெரிய பொதியல் உள்ளது",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "சாலை சேதமுற்றுள்ளது",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "பேருந்து பணியாளி கடு",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "பேருந்து சீமைக்கு வரவில்லை",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "சாலை ஒளிப்பு கம்மி விளக்கு உண்டு",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "போக்குவரவு சிக்கல் பெரியது",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "சாலையை சரிசெய்ய வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "விளக்குகளை சரிசெய்ய வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "பேருந்து சேவை மேம்பட வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "சாலை கடுஞ் சேதமுற்றுள்ளது",
+    "intent": "emergency",
+    "category": "transport"
+  },
+  {
+    "text": "பாதுகாப்பு பிரச்சனை உண்டு",
+    "intent": "complaint",
+    "category": "police"
+  },
+  {
+    "text": "திருட்டு சம்பவம் உண்டாய்விட்டது",
+    "intent": "emergency",
+    "category": "police"
+  },
+  {
+    "text": "சீமையில் கொள்ளை உண்டு",
+    "intent": "emergency",
+    "category": "police"
+  },
+  {
+    "text": "ஆறுதல் கூட்டம் உண்டு",
+    "intent": "complaint",
+    "category": "police"
+  },
+  {
+    "text": "பெண் பாதுகாப்பு கூட்டம் உண்டு",
+    "intent": "emergency",
+    "category": "police"
+  },
+  {
+    "text": "அயோக்கிய நபர்கள் உண்டு",
+    "intent": "complaint",
+    "category": "police"
+  },
+  {
+    "text": "பாதுகாப்பு பணிவீ உள்ளது",
+    "intent": "request",
+    "category": "police"
+  },
+  {
+    "text": "குற்றங்கள் அதிகம் உண்டு",
+    "intent": "complaint",
+    "category": "police"
+  },
+  {
+    "text": "சிமைக் கூட்டம் உண்டு",
+    "intent": "emergency",
+    "category": "police"
+  },
+  {
+    "text": "பாதுகாப்பு அதிகாரி வேண்டும்",
+    "intent": "request",
+    "category": "police"
+  },
+  {
+    "text": "நீர் தேங்கிக் கொண்டுள்ளது தெருவில்",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "வடிகால் பொறிகள் கிற்றுக் கொண்டுள்ளது",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "நீர் கலக்கம் நீண்ட நெளிக்கு உண்டு",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "குழாய் குறுக்கு உந்திக் கொண்டுள்ளது",
+    "intent": "complaint",
+    "category": "water"
+  },
+  {
+    "text": "மின் இணைப்பு பழுதாய் போய়விட்டது",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் பட்ட் பழுதாய் போய்விட்டது",
+    "intent": "complaint",
+    "category": "electricity"
+  },
+  {
+    "text": "சாலை ஐ ஐ மேம்பட வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "பொதியல் சாலைக் குறுக்குக் கொண்டுள்ளது",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "சாலைக் கூட்டம் பெரியது",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "பேருந்து பணியாளி வாடை",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "பேருந்து வாடை உண்டு",
+    "intent": "complaint",
+    "category": "transport"
+  },
+  {
+    "text": "அயோக்கிய நபர்களி ஆறுதல் வந்தது",
+    "intent": "emergency",
+    "category": "police"
+  },
+  {
+    "text": "செல்ல இராணுவ பாதுகாப்பு சேவை உள்ளது",
+    "intent": "request",
+    "category": "police"
+  },
+  {
+    "text": "பொதுச் சுத்தம் செய்ய வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிப்பறை சீ தயாரணம் வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "எரு கொட்ட இடம் வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிவு முகமா வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "தெருவ சுத்தம் பணிக்காரர் வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "உடனடியாக மின்சாரம் சரிசெய்ய வேண்டும்",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் குறுக்கு பாய்ந்துவிட்டது",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "மின் பட்ட தீப்பொறி வந்துவிட்டது",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "நீர் குழாய் மேல் திறக்கிற்ற வேண்டும்",
+    "intent": "request",
+    "category": "water"
+  },
+  {
+    "text": "நீர் கட்டணம் குறைக்க வேண்டும்",
+    "intent": "request",
+    "category": "water"
+  },
+  {
+    "text": "நீர் மீட்டர் சரிசெய்ய வேண்டும்",
+    "intent": "request",
+    "category": "water"
+  },
+  {
+    "text": "சாலை பொதியல் நகர வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "விளக்கு மாற வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "பேருந்து கண்ணாக வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "போக்குவரவு சிக்கல் தீர்க்க வேண்டும்",
+    "intent": "request",
+    "category": "transport"
+  },
+  {
+    "text": "பாதுகாப்பு பணிவீ வேண்டும்",
+    "intent": "request",
+    "category": "police"
+  },
+  {
+    "text": "குற்றங்கள் குறைக்க வேண்டும்",
+    "intent": "request",
+    "category": "police"
+  },
+  {
+    "text": "பெண் பாதுகாப்பு பணிவீ வேண்டும்",
+    "intent": "request",
+    "category": "police"
+  },
+  {
+    "text": "தெருவில் கூட்டம் குறைக்க வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "கழிவு சேகரிப்பு மேம்பட வேண்டும்",
+    "intent": "request",
+    "category": "sanitation"
+  },
+  {
+    "text": "பொது கழிப்பறை உள்ளது",
+    "intent": "query",
+    "category": "sanitation"
+  },
+  {
+    "text": "மின் பணியாளி எங்கே உள்ளார்",
+    "intent": "query",
+    "category": "electricity"
+  },
+  {
+    "text": "நீர் பணியாளி தொலைபேசி எண் என்ன",
+    "intent": "query",
+    "category": "water"
+  },
+  {
+    "text": "பேருந்து நேரம் எப்போது",
+    "intent": "query",
+    "category": "transport"
+  },
+  {
+    "text": "பாதுகாப்பு பணியாளி எங்கே",
+    "intent": "query",
+    "category": "police"
+  },
+  {
+    "text": "நீர் வெட்டல் எப்போது",
+    "intent": "query",
+    "category": "water"
+  },
+  {
+    "text": "மின் வெட்டல் விளக்கம்",
+    "intent": "query",
+    "category": "electricity"
+  },
+  {
+    "text": "சாலை சீ எப்போது",
+    "intent": "query",
+    "category": "transport"
+  },
+  {
+    "text": "கழிப்பறை சாலை எங்கே",
+    "intent": "query",
+    "category": "sanitation"
+  },
+  {
+    "text": "பாதுகாப்பு எண்ணம் என்ன",
+    "intent": "query",
+    "category": "police"
+  },
+  {
+    "text": "மின்சாரம் பாய்ந்துவிட்டது தெருவில்",
+    "intent": "emergency",
+    "category": "electricity"
+  },
+  {
+    "text": "நீர் வெள்ள பெருமளவு வந்துவிட்டது",
+    "intent": "emergency",
+    "category": "water"
+  },
+  {
+    "text": "சாலை விபத்து நடந்துவிட்டது",
+    "intent": "emergency",
+    "category": "transport"
+  },
+  {
+    "text": "சிமை குற்றம் நடக்கிற்றுவிட்டது",
+    "intent": "emergency",
+    "category": "police"
+  },
+  {
+    "text": "பொதுச் சுத்தம் பெருமளவு சேதமுற்றுள்ளது",
+    "intent": "emergency",
+    "category": "sanitation"
+  }
+]
